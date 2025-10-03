@@ -1,0 +1,1 @@
+/work3/monka/tta-vlm-new/benchmark_results/n_samples_1000/exp_83_8augcount_newdatasets_finalized_auggpt16/TTAugAdapter_SmolVLM2_2B_16_AugGPTPara_average/T20250824_G3e3672d7/TTAugAdapter_SmolVLM2_2B_16_AugGPTPara_average_AI2D_TEST_PREV.pkl

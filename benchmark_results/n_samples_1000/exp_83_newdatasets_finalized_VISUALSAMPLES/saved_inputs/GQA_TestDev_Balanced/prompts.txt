@@ -1,0 +1,80 @@
+Prompt 0:
+<|im_start|>User:<image>W hat ' s in feont of the win dow? Answer the que stiin u sing a si ngle wo rd or phrWse. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 1:
+<|im_start|>User:<image>Wh at ' s in fro nt of the window? Ansder the qu estlon usi ng a sing le word or ph rqse. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 2:
+<|im_start|>User:<image>W hat ' s in fro nt of the win dow? Abswer the question uxing a sihg le wo rd or phra se. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 3:
+<|im_start|>User:<image>Wh at ' s in fro nt of the wi ndow? AnXwer the queAtion us ing a si ngle w)rd or phr ase. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 4:
+<|im_start|>User:<image>Wh at ' s in fr ont of the wi ndod? AnsAer the queWt ion using a s ingle wo rd or phrase. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 5:
+<|im_start|>User:<image>W hat ' s in f romt of the window? Answ er the qu estion us ing a sin gle Sord or lhrase. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 6:
+<|im_start|>User:<image>W hat ' s in fro nt of the windo#? Answer the ques tion using a s&ng le wo rd or p hGase. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 7:
+<|im_start|>User:<image>Wmat ' s in fro nt of the wi ndow? Ans wer the quest ion usigg a sin gle Sord or ph rase. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 8:
+<|im_start|>User:<image>What ' s in f ront of the !ind ow? Answer the Wuesti on usi ng a single wo rd or p hrQse. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 9:
+<|im_start|>User:<image>Wh at ' s in fr0nt of the wi ndow? An swer the qu estKon using a sin gle w9rd or phr ase. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 10:
+<|im_start|>User:<image>Wh at ' s in front of the qind ow? Ans wer the q Testion usi ng a s ingle w ord or phraAe. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 11:
+<|im_start|>User:<image>Wh at ' s in f%ont of the win dow? Ajswer the que stion usi ng a simg le word or p hrase. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 12:
+<|im_start|>User:<image>W hat ' s in front of the wi ndow? Ans wer the questi on usinN a s ingIe w ord or phraEe. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 13:
+<|im_start|>User:<image>W hat ' s in front of the winE ow? Answer the qu 4stion using a sing le w ord or p Urase. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 14:
+<|im_start|>User:<image>dhat ' s in fro nt of the win dow? An sw2r the Aues tion using a s ingle word or phr ase. In other words, What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 15:
+<|im_start|>User:<image>What's in front of the window?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******

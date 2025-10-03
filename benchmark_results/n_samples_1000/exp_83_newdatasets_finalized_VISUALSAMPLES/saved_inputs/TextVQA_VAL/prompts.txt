@@ -1,0 +1,192 @@
+Prompt 0:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: which of ese b ooks re adapted? que stion usi ng a single word or phra. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 1:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: w of these boo was recen adapted by netflix? the ques tion using sing le word. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 2:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: of t hese was cently apted by netflix? question using a sing le wo or ase. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 3:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: of these was recen adapted netfl? A nswer questi on us ing a word or se. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 4:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: of t hese boo was by? An swer the question usi ng a single word or se. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 5:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: which of t hese bo oks recent apted netflix? the ques tion ng a word phrase. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 6:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: ch th ese b ooks was adapted by tflix? Answer question sin gle w ord or. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 7:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: ich t books recently by netf lix? Ans wer the q using le word or phrase. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 8:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: whi ch of the se books was adapted by? A nswer the sing a wo hrase. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 9:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: of t bo oks was recently by? using a si ngle wo rd or phra se. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 10:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: whi ch books recent ly adapted by ix? wer the qu using a le word phrase. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 11:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: ich se books was pted by netflix? Answer the ion using a wo or phra se. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 12:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: w t hese books was recently adapted n? Answer que stion using a wo or ase. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 13:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: wh was rece ntly ad apted netflix? A nswer using a s word or ph rase. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 14:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: which of the books by netfl ix? Answer the questi using a single ord or phr. In other words, which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 15:
+<|im_start|>User:<image>Answer the following question about the image using as few words as possible. Follow these additional instructions:
+-Always answer a binary question with Yes or No.
+-When asked what time it is, reply with the time seen in the image.
+-Do not put any full stops at the end of the answer.
+-Do not put quotation marks around the answer.
+-An answer with one or two words is favorable.
+-Do not apply common sense knowledge. The answer can be found in the image.
+Question: which of these books was recently adapted by netflix?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******

@@ -1,0 +1,64 @@
+Prompt 0:
+<|im_start|>User:<image>Do es the p igeon sta nd in this image? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 1:
+<|im_start|>User:<image>D oes the pigeon sta nd in th is image? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 2:
+<|im_start|>User:<image>D oes the pigeon s tand in th is image? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 3:
+<|im_start|>User:<image>Does the pige on sta nd in th is image? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 4:
+<|im_start|>User:<image>Does the p igeon sta nd in th is image? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 5:
+<|im_start|>User:<image>D oes the pige on stand in th is image? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 6:
+<|im_start|>User:<image>Do es the pigeon s tand in t his image? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 7:
+<|im_start|>User:<image>Does the pig eon st and in this ima ge? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 8:
+<|im_start|>User:<image>Does the pig eon stand in t his im age? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 9:
+<|im_start|>User:<image>Do es the pigeon st and in th is image? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 10:
+<|im_start|>User:<image>D oes the p igeon st and in this image? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 11:
+<|im_start|>User:<image>Does the pigeon s tand in t his i mage? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 12:
+<|im_start|>User:<image>Do es the pig eon stand in t his image? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 13:
+<|im_start|>User:<image>Do es the pige on stand in th is image? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 14:
+<|im_start|>User:<image>Does the pige on st and in t his image? In other words, Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******
+Prompt 15:
+<|im_start|>User:<image>Does the pigeon stand in this image?<end_of_utterance>
+Assistant:
+******

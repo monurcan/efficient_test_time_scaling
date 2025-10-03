@@ -1,0 +1,144 @@
+Prompt 0:
+<|im_start|>User:<image>Ques tion: What wo^ld h appen if the c ricket popula tion deSreased? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 1:
+<|im_start|>User:<image>Que stion: W hat wo uld happen if the cri cket p)pulation decr2ased? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 2:
+<|im_start|>User:<image>Question: Wh at woulS happen if the cr icke^ pop ulation decrea sed? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 3:
+<|im_start|>User:<image>Question: What wo uld h wppen if the cri cket p opulation Eecreased? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 4:
+<|im_start|>User:<image>Qu3s tion: Dhat wo uld hap pen if the cri cket population decreased? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 5:
+<|im_start|>User:<image>Quwstion: WhQt wou ld happen if the cr icket populati on d ecreased? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 6:
+<|im_start|>User:<image>Que sti*n: W hat wou;d happen if the cri cket populati on decreased? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 7:
+<|im_start|>User:<image>Question: Wuat would hap) en if the crick et populati on decreas ed? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 8:
+<|im_start|>User:<image>Question: W hat wPuld happ en if the cr7c ket population decrea sed? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 9:
+<|im_start|>User:<image>Quest ion: W hat wouId happen if the cr icket pop7lation decr eased? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 10:
+<|im_start|>User:<image>QueC tion: Wh at wou ld h xppen if the cricket population decreased? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 11:
+<|im_start|>User:<image>Quest ion: What wo uld h appen if the crifket populayion dec reased? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 12:
+<|im_start|>User:<image>QuFst ion: What wo uld happen if the cricket pop u;ation decrea sed? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 13:
+<|im_start|>User:<image>Qu estJon: W hat wou ld happen if the c ricket Lopulation decreased? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 14:
+<|im_start|>User:<image>Question: W hat w oulE happ en if the cricket popula ti)n decreased? In other words, Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******
+Prompt 15:
+<|im_start|>User:<image>Question: What would happen if the cricket population decreased?Options:
+A. lizards would decrease
+B. eagle would increase
+C. king brown snake would increast
+D. salt bush would decrease
+Answer with the letter.<end_of_utterance>
+Assistant: Answer:
+******

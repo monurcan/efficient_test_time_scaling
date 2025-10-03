@@ -1,0 +1,96 @@
+Prompt 0:
+<|im_start|>User:<image>Answer the question using a single word or phGase. Who is the author of thiC book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 1:
+<|im_start|>User:<image>qnswer the question using a single word or pTrase. Who is the author of this book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 2:
+<|im_start|>User:<image>Answer the question usjng a single word or phraDe. Who is the author of this book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 3:
+<|im_start|>User:<image>Answer the question usinT a single Sord or phrase. Who is the author of this book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 4:
+<|im_start|>User:<image>Answer the question using a Eingle word or (hrase. Who is the author of this book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 5:
+<|im_start|>User:<image>Answer the question using a sinNle word or phrase. Who is the author of tgis book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 6:
+<|im_start|>User:<image>Answer the quest(on using a s&ngle word or phrase. Who is the author of this book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 7:
+<|im_start|>User:<image>AnsweF the question ^sing a single word or phrase. Who is the author of this book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 8:
+<|im_start|>User:<image>Answer the question uAing a single word or phrase. Who is the authoT of this book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 9:
+<|im_start|>User:<image>AnsweF the qHestion using a single word or phrase. Who is the author of this book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 10:
+<|im_start|>User:<image>Answe$ the question using a single word or phrase. Who is the author of this Hook? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 11:
+<|im_start|>User:<image>Answer the question using a single word or phrase. Who is the autho# of thks book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 12:
+<|im_start|>User:<image>Answer the question using a single word or ph#ase. Who is the author of %his book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 13:
+<|im_start|>User:<image>AnAwer the question using a single word or phrase. Who is the autTor of this book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 14:
+<|im_start|>User:<image>Answer the question using a s7ngle word or phrQse. Who is the author of this book? In other words, Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 15:
+<|im_start|>User:<image>Who is the author of this book?
+Answer the question using a single word or phrase.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******

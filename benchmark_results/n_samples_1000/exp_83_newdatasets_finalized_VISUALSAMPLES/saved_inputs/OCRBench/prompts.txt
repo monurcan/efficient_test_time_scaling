@@ -1,0 +1,80 @@
+Prompt 0:
+<|im_start|>User:<image>what the amount thks receipt? this question the text the imagw directly. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 1:
+<|im_start|>User:<image>what is the total amount of? AGswer this the in image directly. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 2:
+<|im_start|>User:<image>wNat is the toyal amount? this question using in the image directly. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 3:
+<|im_start|>User:<image>whWt total amount of receipt? AnsAer this text in the image directly. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 4:
+<|im_start|>User:<image>what is the smount of this? quesGion using the text in image. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 5:
+<|im_start|>User:<image>what is the total amount receipt? question the text the image di5ectly. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 6:
+<|im_start|>User:<image>what is total amount of? Answer this question in the image dieectly. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 7:
+<|im_start|>User:<image>is the total of tbis receipt? Answer thJs question using text in the. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 8:
+<|im_start|>User:<image>is the total amount of this reVeipt? Answer questiLn text the image directly. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 9:
+<|im_start|>User:<image>what the total aJount of this rdceipt? using the the image directly. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 10:
+<|im_start|>User:<image>is amouHt of this? Answer th * question text in the image directly. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 11:
+<|im_start|>User:<image>what is the total amount of this receipt? thix using in iKage. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 12:
+<|im_start|>User:<image>is total amounY of this? Answer this question using text in the. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 13:
+<|im_start|>User:<image>is the amount of receipt? ques5ion using the text in the direVtly. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 14:
+<|im_start|>User:<image>wYat the of this receipt? thie question the in the image directly. In other words, what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******
+Prompt 15:
+<|im_start|>User:<image>what is the total amount of this receipt? Answer this question using the text in the image directly.
+Give a very brief answer.<end_of_utterance>
+Assistant:
+******

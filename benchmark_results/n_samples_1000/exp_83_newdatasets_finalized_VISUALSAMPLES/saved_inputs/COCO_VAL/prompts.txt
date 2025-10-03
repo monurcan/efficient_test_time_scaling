@@ -1,0 +1,64 @@
+Prompt 0:
+<|im_start|>User:<image>Ple ase describe image. Dir ectly the d escription, do include pre fix like " d epicts ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 1:
+<|im_start|>User:<image>Pl ease image in. Direct ly the desc ription, not pref ix like " This im age ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 2:
+<|im_start|>User:<image>Please d escribe this ima ge gen eral. prov ide des cription, not include " image depicts ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 3:
+<|im_start|>User:<image>Ple ase t his in ge neral. Di rectly the, do include prefix " This im age ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 4:
+<|im_start|>User:<image>Please im age in general. Direct ly the desc ription, not prefix li ke " ima ge ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 5:
+<|im_start|>User:<image>Describe this in g eneral. Directly provi de, do inc lude pr efix li ke " T his image ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 6:
+<|im_start|>User:<image>D escribe image in general. Dir ectly provi de, do not include l ike " Th is ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 7:
+<|im_start|>User:<image>Pl ease descr ibe this image in. Dir ectly the, prefix " T his image de picts ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 8:
+<|im_start|>User:<image>Please describe this in general. Direc tly the descripti on, inclu de li ke " depi cts ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 9:
+<|im_start|>User:<image>Plea se this i mage in gener al. p rovide the description, do include li ke " ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 10:
+<|im_start|>User:<image>P lease this image in gene ral. Directly pro vide descripti on, do not " Th is ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 11:
+<|im_start|>User:<image>P lease describe image ge neral. Directly prov ide description, do not " Th is de picts ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 12:
+<|im_start|>User:<image>Ple ase descr ibe this im age gener al. Directly provide the description, not " depi cts ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 13:
+<|im_start|>User:<image>Desc ribe th is ima ge in. provide the description, do not i nclude l ike " ima ge ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 14:
+<|im_start|>User:<image>P lease descri be this in gene ral. pr ovide, do not include li ke " depicts ". In other words, Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******
+Prompt 15:
+<|im_start|>User:<image>Please describe this image in general. Directly provide the description, do not include prefix like "This image depicts".<end_of_utterance>
+Assistant:
+******

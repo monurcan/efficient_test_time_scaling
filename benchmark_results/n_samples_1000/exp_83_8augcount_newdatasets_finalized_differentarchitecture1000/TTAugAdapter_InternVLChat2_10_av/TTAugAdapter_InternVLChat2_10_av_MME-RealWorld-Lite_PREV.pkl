@@ -1,0 +1,1 @@
+/work3/monka/tta-vlm-new/benchmark_results/n_samples_1000/exp_83_8augcount_newdatasets_finalized_differentarchitecture1000/TTAugAdapter_InternVLChat2_10_av/T20250911_Ge4a1451b/TTAugAdapter_InternVLChat2_10_av_MME-RealWorld-Lite_PREV.pkl

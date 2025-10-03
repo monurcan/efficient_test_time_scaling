@@ -1,0 +1,176 @@
+Prompt 0:
+<|im_start|>User:<image>This image shows the front view the ego car. What is the future state of black pants pedestrian middle? The are listed below: (A) Turn. (B) Stationary. (C) Keep going straight. (D) Turn right. (E) The image does not feature the object. Respond only letter (A, B, C, D, or E) of the correct option. Select the best answer to the above multiple - choice question based on the image. The answer: In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 1:
+<|im_start|>User:<image>This image shows front view of the ego. The choices are listed: (A) Turn. (B ). What is future state of the black pants in the middle? (C) Keep going straight. (D) Turn right. (E) The does not feature object. the best answer to the above multiple - choice question based on the image. The best answer is: Respond with only the letter (A, B, C, D, or E) of the correct option. In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 2:
+<|im_start|>User:<image>This image the view the car. What is the state of the black pants pedestrian in the middle? The choices are listed below: (A) Turn left. (C) Keep going straight. (B) Stationary. () The image does not feature the object. () Turn right. Respond with only the letter (A, B, C, D, or E) of the option. the best answer to above multiple - choice question based on the image. The best answer is: In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 3:
+<|im_start|>User:<image>The is: What is the future state of the black pants pedestrian in the middle? (B ). The choices are listed below: () Turn left. (C) Keep going straight. () right. Select the best answer to the above multiple - choice question based on the image. (E) image does not feature the object. Respond with only the letter (, , C, D, E) of the correct option. This image shows the front view of the ego car. In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 4:
+<|im_start|>User:<image>What is the future state of the black pants pedestrian in the? This shows the front view of the ego car. The choices are listed below: (A) left. (C) Keep going straight. (B ). (D) Turn right. (E) The image does not feature the object. the answer to the multiple - choice question based on the image. The best answer is: Respond only the letter (, B, C, D, or E) of the option. In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 5:
+<|im_start|>User:<image>This image shows the front view of the ego car. What the future state of the black pedestrian in the middle? The choices are listed below: () Turn left. (C) Keep going straight. (B ). () The image does not feature the object. (D) Turn right. Select the best answer to above multiple - choice question on the image. The answer is: Respond with only the letter (A, , C, D, or) of the correct option. In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 6:
+<|im_start|>User:<image>The best answer is: The choices are listed below: (A) Turn left. What is the state the black pants in the middle? (B) Stationary. (C) Keep going. (D) Turn right. the best answer to the above multiple - choice question based on the image. (E) The image does not feature the object. Respond with only the letter (A, , C, , or) of the correct option. This image shows front view of the ego. In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 7:
+<|im_start|>User:<image>This image shows the front view of the ego car. What is the future state of the black pants in the? (B) Stationary. The choices are listed below: (A) Turn. (D) Turn right. (C) Keep going straight. (E) The image does not the object. Respond with only the letter (A, B, C, D, or) of correct. Select the best answer the above multiple - choice question based the image. The best answer: In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 8:
+<|im_start|>User:<image>This image shows the front view the ego car. The choices are listed below: (A) Turn left. (B) Stationary. What is the future state of black pedestrian in middle? (C) Keep going. (D) Turn right. Select the best answer above multiple - choice question based on the image. (E) The image does feature the object. Respond with only the letter (A, B, , D, or E) of the option. The best answer is: In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 9:
+<|im_start|>User:<image>The best answer: This image shows front of the ego car. The choices are below: (A) Turn left. (B) Stationary. (C) Keep going straight. (D) Turn. () The image does not feature the. Respond only the letter (A, B, C, D, or E) of the correct option. Select best answer to the above multiple - choice question based on the image. What is the future state of black pants pedestrian in the middle? In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 10:
+<|im_start|>User:<image>The best answer: What the future state of the black pedestrian in the middle? The choices listed below: (A) Turn left. (B) Stationary. (C) Keep straight. Select the best answer to the above multiple - choice question based on the image. () Turn right. (E) The image does not feature the object. Respond with only letter (A, B, C, D, E) the correct option. This image shows the front of the ego car. In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 11:
+<|im_start|>User:<image>This image the front view of. What is the future state of the black pants pedestrian in the middle? The choices are listed below: (A) Turn left. (B) Stationary. (C) Keep going straight. (D) right. Select the best to the above - choice based on the image. () The image does not feature the object. with only the letter (A, B, C, D, or E) of the correct option. The best answer is: In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 12:
+<|im_start|>User:<image>This shows the view of the ego car. What is future state of the pants pedestrian in the middle? The choices below: (A) Turn left. (C) Keep going straight. (B) Stationary. (D) Turn right. (E) does not feature the object. Respond with only the letter (A, B, C, D, or E) of the correct option. The best answer is: Select the best answer to above multiple - choice based on the image. In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 13:
+<|im_start|>User:<image>This image shows the front view of ego car. is the state of the black pants in the middle? The choices listed below: (A) Turn. (B) Stationary. (C) Keep going straight. () Turn. (E) The image does not feature the object. Respond with only the letter (, B, C, D, or E) of the correct option. Select the best answer to the multiple - choice question based on the image. The best answer is: In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 14:
+<|im_start|>User:<image>The best answer is: What is the future state the black pants pedestrian in the middle? The choices listed below: (A) Turn. (B) Stationary. (D) right. (C) Keep going straight. Select the best answer to the above multiple - choice question based on the image. (E) The image does not feature the object. Respond with the letter (, ,, , or E) of the correct option. This image shows the front view of ego car. In other words, This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******
+Prompt 15:
+<|im_start|>User:<image>This image shows the front view of the ego car. What is the future state of the black pants pedestrian in the middle? The choices are listed below:
+(A) Turn left.
+(B) Stationary.
+(C) Keep going straight.
+(D) Turn right.
+(E) The image does not feature the object.
+Select the best answer to the above multiple-choice question based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option. 
+The best answer is:<end_of_utterance>
+Assistant:
+******

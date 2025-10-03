@@ -1,0 +1,256 @@
+Prompt 0:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Whish countrg had the mo st vi sitors to I ta>y in 2 018? Ans wer the question using a s ingle w ord or phrase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 1:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Which couJtry had the m ost vis itors to Italy in 2 018? Answ er the question usi ng a si nble w ord or pbrase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 2:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Which coun try had the mo st v isitors to It aly in 20 18? Ans wer the quest ion usiMg a s7ngle woTd or phrase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 3:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Whi ch co untry had the mLst visitors to I taly in 2 018? Answer the q uesyion using a eing le word or phr ase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 4:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Wh ich country had the most visitors to Ita ly in 20 18? Answer the que ction usinn a s inglW w ord or p hrase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 5:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Wh ich country had the mo st vi siRors to Italy in 2 018? A jswer the question u sing a eingle word or phr ase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 6:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Wh ich c ountry had the mo st visi tors to Italy in 2 018? Answer the quesRion usi ng a sing?e Dord or p hrase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 7:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Which country had the mo st v isitors to Ita ly in W018? AnWwer the quest ion ising a s ingle w ord or phr ase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 8:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Which country had the mo st visitors to I raly in 20 18? Ajsw er the questi on usinb a sin gle wo rd or phrase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 9:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Wh ich cou ntry had the most visitors to Ita ly in 2018? Answer the qu estipn us(ng a eing le w ord or p hrase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 10:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Wnich cou ntry had the m ost visitors to Italy in 20 18? An sAer the question usiBg a si ngle w ord or p hrase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 11:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Wbich co8nt ry had the most visiYors to It aly in 2 018? An swer the question using a si ngle wo rd or ph rase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 12:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Which c ountry had the m ost visJtors to I taly in 2018? An swer the question us ing a s ingle aord or ph ras4. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 13:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Whi ch country had the mo st visit ors to ItZly in 2 018? Answ er the ques$ion u sing a si ngle wo%d or phrase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 14:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Wgich count ry had the most visito rs to Ita ly in 201*? Ans3er the qu estion us ing a si ngle word or ph rase. In other words, Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******
+Prompt 15:
+<|im_start|>User:<image>For the question below, follow the following instructions:
+-The answer should contain as few words as possible.
+-Don't paraphrase or reformat the text you see in the image.
+-Answer a binary question with Yes or No.
+-When asked to give a numerical value, provide a number like 2 instead of Two.
+-If the final answer has two or more items, provide it in the list format like [1, 2].
+-When asked to give a ratio, give out the decimal value like 0.25 instead of 1:4.
+-When asked to give a percentage, give out the whole value like 17 instead of decimal like 0.17%.
+-Don't include any units in the answer.
+-Do not include any full stops at the end of the answer.
+-Try to include the full label from the graph when asked about an entity.
+Question: Which country had the most visitors to Italy in 2018?
+Answer the question using a single word or phrase.<end_of_utterance>
+Assistant:
+******

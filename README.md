@@ -36,7 +36,7 @@ pip install -r requirements.txt --no-deps
 pip install -e . --no-deps
 ```
 
-Note that the code has been tested with: Python 3.10.12 and CUDA 12.5.
+Note that the code has been tested with Python 3.10.12 and CUDA 12.5.
 
 ## 💻 Inference: Run an Experiment
 ```bash

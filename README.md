@@ -12,7 +12,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b)](http://arxiv.org/abs/xxxx.xxxxx)
 [![](https://img.shields.io/badge/%F0%9F%9A%80%20-Project%20Page-green)](https://monurcan.github.io/efficient_test_time_scaling/)
-[![](https://img.shields.io/badge/%F0%9F%A4%97%20-Demo-blue)](https://monurcan.github.io/efficient_test_time_scaling/)
+[![](https://img.shields.io/badge/%F0%9F%A4%97%20-Demo-blue)](https://huggingface.co/spaces/monurcan/efficient_test_time_scaling/)
 
 </div>
 

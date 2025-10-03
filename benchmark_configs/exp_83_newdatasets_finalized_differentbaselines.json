@@ -1,0 +1,99 @@
+{
+    "model": {
+        "Pixtral": {
+            "class": "Pixtral",
+            "model_path": "mistralai/Pixtral-12B-2409"
+        },
+        "Idefics3-8B-Llama3": {
+            "class": "IDEFICS2",
+            "model_path": "HuggingFaceM4/Idefics3-8B-Llama3"
+        },
+        "llava-onevision-qwen2-7b-si-hf": {
+            "class": "LLaVA_OneVision_HF",
+            "model_path": "llava-hf/llava-onevision-qwen2-7b-si-hf"
+        },
+        "molmo": {
+            "class": "molmo",
+            "model_path": "allenai/Molmo-7B-D-0924"
+        },
+        "IDEFICS2": {
+            "class": "IDEFICS2",
+            "model_path": "HuggingFaceM4/idefics2-8b"
+        },
+        "Janus": {
+            "class": "Janus",
+            "model_path": "deepseek-ai/Janus-Pro-7B"
+        },
+        "XGenMM": {
+            "class": "XGenMM",
+            "model_path": "Salesforce/xgen-mm-phi3-mini-instruct-interleave-r-v1.5"
+        },
+        "PaliGemma": {
+            "class": "PaliGemma",
+            "model_path": "google/paligemma-3b-mix-448"
+        },
+        "LLaVA_Next": {
+            "class": "LLaVA_Next",
+            "model_path": "llava-hf/llama3-llava-next-8b-hf"
+        },
+        "DeepSeekVL2": {
+            "class": "DeepSeekVL2",
+            "model_path": "deepseek-ai/deepseek-vl2-tiny"
+        },
+        "monkey-chat": {
+            "class": "MonkeyChat",
+            "model_path": "echo840/Monkey-Chat"
+        },
+        "Yi_VL_34B": {
+            "class": "Yi_VL",
+            "model_path": "01-ai/Yi-VL-34B",
+            "root": "Yi_ROOT"
+        },
+        "Vintern-3B-beta": {
+            "class": "VinternChat",
+            "model_path": "5CD-AI/Vintern-3B-beta"
+        },
+        "Falcon2-VLM-11B": {
+            "class": "Falcon2VLM",
+            "model_path": "tiiuae/falcon-11B-vlm"
+        }
+    },
+    "data": {
+        "OCRBench": {
+            "class": "OCRBench",
+            "dataset": "OCRBench"
+        },
+        "MME-RealWorld-Lite": {
+            "class": "MMERealWorld",
+            "dataset": "MME-RealWorld-Lite"
+        },
+        "AMBER": {
+            "class": "ImageYORNDataset",
+            "dataset": "AMBER"
+        },
+        "TextVQA_VAL": {
+            "class": "ImageVQADataset",
+            "dataset": "TextVQA_VAL"
+        },
+        "AI2D_TEST": {
+            "class": "ImageMCQDataset",
+            "dataset": "AI2D_TEST"
+        },
+        "OCRVQA_TEST": {
+            "class": "ImageVQADataset",
+            "dataset": "OCRVQA_TEST"
+        },
+        "ChartQA_TEST": {
+            "class": "ImageVQADataset",
+            "dataset": "ChartQA_TEST"
+        },
+        "GQA_TestDev_Balanced": {
+            "class": "ImageVQADataset",
+            "dataset": "GQA_TestDev_Balanced"
+        },
+        "COCO_VAL": {
+            "class": "ImageCaptionDataset",
+            "dataset": "COCO_VAL"
+        }
+    }
+}

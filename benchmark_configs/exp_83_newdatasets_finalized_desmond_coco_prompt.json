@@ -1,0 +1,15 @@
+{
+    "model": {
+        "Base_SmolVLM2_2B": {
+            "class": "SmolVLM2",
+            "model_path": "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+        }
+
+    },
+    "data": {
+        "COCO_VAL": {
+            "class": "ImageCaptionDataset",
+            "dataset": "COCO_VAL"
+        }
+    }
+}

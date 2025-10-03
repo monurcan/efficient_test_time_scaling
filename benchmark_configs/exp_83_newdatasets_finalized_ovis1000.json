@@ -1,0 +1,184 @@
+{
+    "model": {
+        "Ovis2_8B": {
+            "class": "Ovis2",
+            "model_path": "AIDC-AI/Ovis2-8B"
+        },
+        "TTAugAdapter_Ovis2_4B_16_SimplePara_ewm_low": {
+            "class": "TTAugAdapter_Ovis2",
+            "model_args": {
+                "model_path": "AIDC-AI/Ovis2-4B"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "low",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "ewm",
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false,
+            "handle_oom": false
+        },
+        "TTAugAdapter_Ovis2_4B_16_SimplePara_average_no": {
+            "class": "TTAugAdapter_Ovis2",
+            "model_args": {
+                "model_path": "AIDC-AI/Ovis2-4B"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "no",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average",
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false,
+            "handle_oom": false
+        },
+        "TTAugAdapter_Ovis2_2B_16_SimplePara_average_low": {
+            "class": "TTAugAdapter_Ovis2",
+            "model_args": {
+                "model_path": "AIDC-AI/Ovis2-2B"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "low",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average",
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false,
+            "handle_oom": false
+        },
+        "Ovis2": {
+            "class": "Ovis2",
+            "model_path": "AIDC-AI/Ovis2-2B"
+        },
+        "TTAugAdapter_Ovis2_1B_16_SimplePara_average_low": {
+            "class": "TTAugAdapter_Ovis2",
+            "model_args": {
+                "model_path": "AIDC-AI/Ovis2-1B"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "low",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average",
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false,
+            "handle_oom": false
+        },
+        "Ovis2_1B": {
+            "class": "Ovis2",
+            "model_path": "AIDC-AI/Ovis2-1B"
+        },
+        "TTAugAdapter_Ovis2_4B_16_SimplePara_average_low": {
+            "class": "TTAugAdapter_Ovis2",
+            "model_args": {
+                "model_path": "AIDC-AI/Ovis2-4B"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "low",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average",
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false,
+            "handle_oom": false
+        },
+        "Ovis2_4B": {
+            "class": "Ovis2",
+            "model_path": "AIDC-AI/Ovis2-4B"
+        },
+        "TTAugAdapter_Ovis2_8B_16_SimplePara_average_low": {
+            "class": "TTAugAdapter_Ovis2",
+            "model_args": {
+                "model_path": "AIDC-AI/Ovis2-8B"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "low",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average",
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false,
+            "handle_oom": false
+        }
+    },
+    "data": {
+        "OCRBench": {
+            "class": "OCRBench",
+            "dataset": "OCRBench"
+        },
+        "MME-RealWorld-Lite": {
+            "class": "MMERealWorld",
+            "dataset": "MME-RealWorld-Lite"
+        },
+        "AMBER": {
+            "class": "ImageYORNDataset",
+            "dataset": "AMBER"
+        },
+        "TextVQA_VAL": {
+            "class": "ImageVQADataset",
+            "dataset": "TextVQA_VAL"
+        },
+        "AI2D_TEST": {
+            "class": "ImageMCQDataset",
+            "dataset": "AI2D_TEST"
+        },
+        "OCRVQA_TEST": {
+            "class": "ImageVQADataset",
+            "dataset": "OCRVQA_TEST"
+        },
+        "ChartQA_TEST": {
+            "class": "ImageVQADataset",
+            "dataset": "ChartQA_TEST"
+        },
+        "GQA_TestDev_Balanced": {
+            "class": "ImageVQADataset",
+            "dataset": "GQA_TestDev_Balanced"
+        },
+        "COCO_VAL": {
+            "class": "ImageCaptionDataset",
+            "dataset": "COCO_VAL"
+        }
+    }
+}

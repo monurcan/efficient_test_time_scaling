@@ -1,0 +1,164 @@
+{
+    "model": {
+        "TTAugAdapter_InternVL25MPOChat_10_av_noimgaug": {
+            "class": "TTAugAdapter_InternVLChat",
+            "model_args": {
+                "model_path": "OpenGVLab/InternVL2_5-2B-MPO",
+                "version": "V2.0",
+                "use_mpo_prompt": true
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "no",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average",
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "InternVL25_2B_MPO": {
+            "class": "InternVLChat",
+            "model_path": "OpenGVLab/InternVL2_5-2B-MPO",
+            "version": "V2.0",
+            "use_mpo_prompt": true
+        },
+        "TTAugAdapter_InternVL25Chat_10_av": {
+            "class": "TTAugAdapter_InternVLChat",
+            "model_args": {
+                "model_path": "OpenGVLab/InternVL2_5-2B",
+                "version": "V2.0"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "low",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average",
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "TTAugAdapter_InternVL25Chat_10_av_noimgaug": {
+            "class": "TTAugAdapter_InternVLChat",
+            "model_args": {
+                "model_path": "OpenGVLab/InternVL2_5-2B",
+                "version": "V2.0"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "no",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average",
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "InternVL25_2B": {
+            "class": "InternVLChat",
+            "model_path": "OpenGVLab/InternVL2_5-2B",
+            "version": "V2.0"
+        },
+        "TTAugAdapter_InternVLChat2_10_av": {
+            "class": "TTAugAdapter_InternVLChat",
+            "model_args": {
+                "model_path": "OpenGVLab/InternVL2-1B",
+                "version": "V2.0"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "low",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average",
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "TTAugAdapter_InternVLChat2_10_av_noimgaug": {
+            "class": "TTAugAdapter_InternVLChat",
+            "model_args": {
+                "model_path": "OpenGVLab/InternVL2-1B",
+                "version": "V2.0"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "no",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average",
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "InternVL2_1B": {
+            "class": "InternVLChat",
+            "model_path": "OpenGVLab/InternVL2-1B",
+            "version": "V2.0"
+        }
+    },
+    "data": {
+        "OCRBench": {
+            "class": "OCRBench",
+            "dataset": "OCRBench"
+        },
+        "MME-RealWorld-Lite": {
+            "class": "MMERealWorld",
+            "dataset": "MME-RealWorld-Lite"
+        },
+        "AMBER": {
+            "class": "ImageYORNDataset",
+            "dataset": "AMBER"
+        },
+        "TextVQA_VAL": {
+            "class": "ImageVQADataset",
+            "dataset": "TextVQA_VAL"
+        },
+        "AI2D_TEST": {
+            "class": "ImageMCQDataset",
+            "dataset": "AI2D_TEST"
+        },
+        "OCRVQA_TEST": {
+            "class": "ImageVQADataset",
+            "dataset": "OCRVQA_TEST"
+        },
+        "ChartQA_TEST": {
+            "class": "ImageVQADataset",
+            "dataset": "ChartQA_TEST"
+        },
+        "GQA_TestDev_Balanced": {
+            "class": "ImageVQADataset",
+            "dataset": "GQA_TestDev_Balanced"
+        },
+        "COCO_VAL": {
+            "class": "ImageCaptionDataset",
+            "dataset": "COCO_VAL"
+        }
+    }
+}

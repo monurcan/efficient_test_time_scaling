@@ -1,0 +1,34 @@
+{
+    "model": {
+        "TTAugAdapter_SmolVLM2_2B_16_SimplePara_learnedweights": {
+            "class": "TTAugAdapter_SmolVLM2",
+            "model_args": {
+                "model_path": "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "high",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "learned",
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        }
+    },
+    "data": {
+        "GQA_TestDev_Balanced": {
+            "class": "ImageVQADataset",
+            "dataset": "GQA_TestDev_Balanced"
+        },
+        "COCO_VAL": {
+            "class": "ImageCaptionDataset",
+            "dataset": "COCO_VAL"
+        }
+    }
+}

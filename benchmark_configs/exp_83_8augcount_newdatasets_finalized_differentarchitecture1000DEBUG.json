@@ -1,0 +1,36 @@
+{
+    "model": {
+        "TTAugAdapter_InternVL25_1B_Chat_10_av_noimgaug": {
+            "class": "TTAugAdapter_InternVLChat",
+            "model_args": {
+                "model_path": "OpenGVLab/InternVL2_5-1B",
+                "version": "V2.0"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "no",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average",
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "InternVL25_1B": {
+            "class": "InternVLChat",
+            "model_path": "OpenGVLab/InternVL2_5-1B",
+            "version": "V2.0"
+        }
+    },
+    "data": {
+        "OCRBench": {
+            "class": "OCRBench",
+            "dataset": "OCRBench"
+        }
+    }
+}

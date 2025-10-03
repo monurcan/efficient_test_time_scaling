@@ -1,0 +1,231 @@
+{
+    "model": {
+        "TTAugAdapter_SmolVLM2_2B_16_SimplePara_AverageEarlyLayer4": {
+            "class": "TTAugAdapter_SmolVLM2",
+            "model_args": {
+                "model_path": "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "high",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average_features_early_layer",
+            "average_features_early_layer": 4,
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "TTAugAdapter_SmolVLM2_2B_16_SimplePara_AverageEarlyLayer8": {
+            "class": "TTAugAdapter_SmolVLM2",
+            "model_args": {
+                "model_path": "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "high",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average_features_early_layer",
+            "average_features_early_layer": 8,
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "TTAugAdapter_SmolVLM2_2B_16_SimplePara_AverageEarlyLayer10": {
+            "class": "TTAugAdapter_SmolVLM2",
+            "model_args": {
+                "model_path": "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "high",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average_features_early_layer",
+            "average_features_early_layer": 10,
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "TTAugAdapter_SmolVLM2_2B_16_SimplePara_AverageEarlyLayer12": {
+            "class": "TTAugAdapter_SmolVLM2",
+            "model_args": {
+                "model_path": "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "high",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average_features_early_layer",
+            "average_features_early_layer": 12,
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "TTAugAdapter_SmolVLM2_2B_16_SimplePara_AverageEarlyLayer16": {
+            "class": "TTAugAdapter_SmolVLM2",
+            "model_args": {
+                "model_path": "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "high",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average_features_early_layer",
+            "average_features_early_layer": 16,
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "TTAugAdapter_SmolVLM2_2B_16_SimplePara_AverageEarlyLayer20": {
+            "class": "TTAugAdapter_SmolVLM2",
+            "model_args": {
+                "model_path": "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "high",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average_features_early_layer",
+            "average_features_early_layer": 20,
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "TTAugAdapter_SmolVLM2_2B_16_SimplePara_AverageEarlyLayer22": {
+            "class": "TTAugAdapter_SmolVLM2",
+            "model_args": {
+                "model_path": "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "high",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average_features_early_layer",
+            "average_features_early_layer": 22,
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "TTAugAdapter_SmolVLM2_2B_16_SimplePara_AverageEarlyLayer23": {
+            "class": "TTAugAdapter_SmolVLM2",
+            "model_args": {
+                "model_path": "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "high",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average_features_early_layer",
+            "average_features_early_layer": 23,
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        },
+        "TTAugAdapter_SmolVLM2_2B_16_SimplePara_AverageEarlyLayer24": {
+            "class": "TTAugAdapter_SmolVLM2",
+            "model_args": {
+                "model_path": "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+            },
+            "text_aug_args": {
+                "gpt_paraphraser_strategy": "simple_paraphraser",
+                "save_or_load": null,
+                "path_text_aug_to_file": null
+            },
+            "image_aug_args": {
+                "aug_strength": "high",
+                "save_or_load_generativeimg": null,
+                "strength_gen_aug": 0.25,
+                "path_generativeimg_to_directory": null
+            },
+            "token_selection_aggregation_method": "average_features_early_layer",
+            "average_features_early_layer": 24,
+            "number_of_versions": 16,
+            "save_inputs_for_debugging": false
+        }
+    },
+    "data": {
+        "OCRBench": {
+            "class": "OCRBench",
+            "dataset": "OCRBench"
+        },
+        "AMBER": {
+            "class": "ImageYORNDataset",
+            "dataset": "AMBER"
+        },
+        "TextVQA_VAL": {
+            "class": "ImageVQADataset",
+            "dataset": "TextVQA_VAL"
+        },
+        "AI2D_TEST": {
+            "class": "ImageMCQDataset",
+            "dataset": "AI2D_TEST"
+        },
+        "OCRVQA_TEST": {
+            "class": "ImageVQADataset",
+            "dataset": "OCRVQA_TEST"
+        },
+        "ChartQA_TEST": {
+            "class": "ImageVQADataset",
+            "dataset": "ChartQA_TEST"
+        },
+        "GQA_TestDev_Balanced": {
+            "class": "ImageVQADataset",
+            "dataset": "GQA_TestDev_Balanced"
+        },
+        "COCO_VAL": {
+            "class": "ImageCaptionDataset",
+            "dataset": "COCO_VAL"
+        },
+        "MME-RealWorld-Lite": {
+            "class": "MMERealWorld",
+            "dataset": "MME-RealWorld-Lite"
+        }
+    }
+}

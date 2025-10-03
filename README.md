@@ -52,7 +52,7 @@ Results will be automatically saved to the [`benchmark_results`](./benchmark_res
 The core logic of our methods is located in [`vlmeval/vlm/tta`](./vlmeval/vlm/tta)
 
 Utility scripts for analysis and visualization are available in [`scripts`](./scripts):
-- [`figure_create.ipynb`](./scripts/figure_create.ipynb) - Figure generation, saves the following visualizations to [`benchmark_visualizations`](./benchmark_visualizations) directory
+- [`figure_create.ipynb`](./scripts/figure_create.ipynb) - Figure generation, saves them to [`benchmark_visualizations`](./benchmark_visualizations) directory
 - [`table_create.ipynb`](./scripts/table_create.ipynb) - Results table generation
 
 ## 🙏 Acknowledgement

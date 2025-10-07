@@ -10,7 +10,7 @@
 
 <div id="top" align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b)](http://arxiv.org/abs/xxxx.xxxxx)
+[![arXiv](https://img.shields.io/badge/arXiv-2510.03574-b31b1b)](http://arxiv.org/abs/2510.03574)
 [![](https://img.shields.io/badge/%F0%9F%9A%80%20-Project%20Page-blue)](https://monurcan.github.io/efficient_test_time_scaling/)
 
 </div>
@@ -63,7 +63,7 @@ For more details, refer to [`README_VLMEVALKIT.md`](./README_VLMEVALKIT.md).
 @article{Kaya2025EfficientTTS,
   title={Efficient Test-Time Scaling for Small Vision-Language Models},
   author={Mehmet Onurcan Kaya and Desmond Elliott and Dim P. Papadopoulos},
-  journal={arXiv preprint arXiv:ARXIV PAPER ID},
+  journal={arXiv preprint arXiv:2510.03574},
   year={2025},
   url={https://monurcan.github.io/efficient_test_time_scaling}
 }

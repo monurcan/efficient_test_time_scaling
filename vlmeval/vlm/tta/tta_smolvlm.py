@@ -506,6 +506,7 @@ class TTAugAdapter_SmolVLM2(SmolVLM2):
         generated_ids = self.model.generate(
             **repeated_inputs, **kwargs_multinomial_temp
         )
+        print("#### Self-selector Token count: ", generated_ids[:, repeated_inputs["input_ids"].size(1) :].shape)
         generated_text = self.processor.batch_decode(
             generated_ids[:, repeated_inputs["input_ids"].size(1) :],
             skip_special_tokens=True,
@@ -576,6 +577,7 @@ class TTAugAdapter_SmolVLM2(SmolVLM2):
         generated_ids = self.model.generate(
             **repeated_inputs, **kwargs_multinomial_temp
         )
+        print("#### Self-consistency Token count: ", generated_ids[:, repeated_inputs["input_ids"].size(1) :].shape)
         generated_text = self.processor.batch_decode(
             generated_ids[:, repeated_inputs["input_ids"].size(1) :],
             skip_special_tokens=True,
@@ -632,7 +634,7 @@ class TTAugAdapter_SmolVLM2(SmolVLM2):
         )
 
         generated_ids = generated_dict.sequences
-
+        print("#### Sample-and-rank Token count: ", generated_ids[:, repeated_inputs["input_ids"].size(1) :].shape)
         generated_text = self.processor.batch_decode(
             generated_ids[:, repeated_inputs["input_ids"].size(1) :],
             skip_special_tokens=True,
@@ -716,6 +718,7 @@ class TTAugAdapter_SmolVLM2(SmolVLM2):
         generated_ids = self.model.generate(
             **repeated_inputs, **kwargs_multinomial_temp
         )
+        print("#### Self-synthesizer Token count: ", generated_ids[:, repeated_inputs["input_ids"].size(1) :].shape)
         generated_text = self.processor.batch_decode(
             generated_ids[:, repeated_inputs["input_ids"].size(1) :],
             skip_special_tokens=True,
@@ -744,6 +747,7 @@ class TTAugAdapter_SmolVLM2(SmolVLM2):
         ).to(self.model.device)
 
         generated_ids = self.model.generate(**inputs, **self.kwargs)
+        print("#### Self-synthesizer final Token count: ", generated_ids[:, inputs["input_ids"].size(1) :].shape)
         generated_text = self.processor.batch_decode(
             generated_ids[:, inputs["input_ids"].size(1) :],
             skip_special_tokens=True,
@@ -1044,6 +1048,8 @@ class TTAugAdapter_SmolVLM2(SmolVLM2):
         # import pdb
         # pdb.set_trace()
         generated_ids = self.model.generate(**inputs, **self.kwargs)
+        
+        print("#### Our TTAug Token count: ", generated_ids[:, inputs["input_ids"].size(1) :].shape)
 
         # Decode only the new tokens, not the entire sequence
         generated_text = self.processor.batch_decode(

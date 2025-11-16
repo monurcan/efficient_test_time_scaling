@@ -479,6 +479,7 @@ class SmolVLM2(BaseModel):
         generated_ids = self.model.generate(**inputs, **self.kwargs)
 
         # Decode only the new tokens, not the entire sequence
+        print("Token count: ", generated_ids[:, inputs["input_ids"].size(1) :].shape)
         generated_text = self.processor.batch_decode(
             generated_ids[:, inputs["input_ids"].size(1) :], skip_special_tokens=True
         )[0]

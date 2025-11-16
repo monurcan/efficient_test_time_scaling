@@ -78,6 +78,8 @@ class TTAugAdapter_SmolVLM2(SmolVLM2):
         elif self.token_selection_aggregation_method in [
             "answer_level_temperature_mllm_selector",
             "answer_level_temperature_majority_vote",
+            "answer_level_temperature_confidence_scores",
+            "answer_level_temperature_mllm_synthesizer",
             "answer_level_greedy_mllm_selector",
             "answer_level_greedy_majority_vote",
             "answer_level_greedy_confidence_scores",
@@ -602,6 +604,154 @@ class TTAugAdapter_SmolVLM2(SmolVLM2):
 
         return generated_text.strip()
 
+    def answer_level_temperature_confidence_scores_generate(
+        self, formatted_message, image, **inputs
+    ):
+        # First repeat the original input to create batch
+        # Take the last item from each tensor and repeat it to match the batch size
+        repeated_inputs = {}
+
+        for k, v in inputs.items():
+            # Repeat to create batch of same size
+            repeated_inputs[k] = (
+                v[-1].unsqueeze(0).repeat(v.size(0), *([1] * (len(v.shape) - 1)))
+            )
+
+        kwargs_multinomial_temp = {
+            **self.kwargs,
+            "do_sample": True,
+            "temperature": 0.7,
+            "top_p": 0.95,
+        }
+
+        generated_dict = self.model.generate(
+            **repeated_inputs,
+            **kwargs_multinomial_temp,
+            return_dict_in_generate=True,
+            output_scores=True,
+        )
+
+        generated_ids = generated_dict.sequences
+
+        generated_text = self.processor.batch_decode(
+            generated_ids[:, repeated_inputs["input_ids"].size(1) :],
+            skip_special_tokens=True,
+        )
+
+        print(kwargs_multinomial_temp)
+        print(generated_text, "\n************************")
+
+        # Selector based on sum of confidence scores
+        # scores = generated_dict.scores  # tuple(len = seq_len), each (batch, vocab_size)
+        # batch_size = generated_ids.size(0)
+        # input_len = inputs["input_ids"].size(1)
+        # gen_len = len(scores)
+
+        # # Stack scores into tensor: (gen_len, batch, vocab_size)
+        # score_tensor = torch.stack(scores, dim=0)
+
+        # # Log-softmax across vocab
+        # log_probs = torch.nn.functional.log_softmax(
+        #     score_tensor, dim=-1
+        # )  # (gen_len, batch, vocab)
+
+        # # Gather the log-probs of the chosen tokens
+        # chosen_ids = generated_ids[:, input_len:]  # (batch, gen_len)
+        # chosen_ids = chosen_ids.transpose(0, 1).unsqueeze(-1)  # (gen_len, batch, 1)
+        # token_logprobs = torch.gather(log_probs, 2, chosen_ids).squeeze(
+        #     -1
+        # )  # (gen_len, batch)
+
+        # # Sum over sequence → sequence log-likelihood
+        # sequence_scores = token_logprobs.sum(dim=0)  # (batch,)
+
+        # Compute per-token transition scores (log-probabilities)
+        transition_scores = self.model.compute_transition_scores(
+            sequences=generated_dict.sequences,
+            scores=generated_dict.scores,
+            normalize_logits=True,
+        )  # (batch, generated_sequence_length)
+
+        # Sum log-probs for sequence-level score
+        sequence_scores = transition_scores.sum(dim=1)  # (batch,)
+
+        # Pick best
+        best_idx = sequence_scores.argmax().item()
+        best_answer = generated_text[best_idx]
+
+        # print("confidence scores:")
+        # print(transition_scores)
+        # print("sequence scores:")
+        # print(sequence_scores)
+        # print("shapes:")
+        # print(
+        #     transition_scores.shape,
+        #     sequence_scores.shape,
+        #     generated_ids[:, inputs["input_ids"].size(1) :].shape,
+        # )
+        # print(f"Best index: {best_idx}")
+
+        return best_answer.strip()
+
+    def answer_level_temperature_mllm_synthesizer_generate(
+        self, formatted_message, image, **inputs
+    ):
+        # First repeat the original input to create batch
+        # Take the last item from each tensor and repeat it to match the batch size
+        repeated_inputs = {}
+
+        for k, v in inputs.items():
+            # Repeat to create batch of same size
+            repeated_inputs[k] = (
+                v[-1].unsqueeze(0).repeat(v.size(0), *([1] * (len(v.shape) - 1)))
+            )
+
+        kwargs_multinomial_temp = {
+            **self.kwargs,
+            "do_sample": True,
+            "temperature": 0.7,
+            "top_p": 0.95,
+        }
+
+        generated_ids = self.model.generate(
+            **repeated_inputs, **kwargs_multinomial_temp
+        )
+        generated_text = self.processor.batch_decode(
+            generated_ids[:, repeated_inputs["input_ids"].size(1) :],
+            skip_special_tokens=True,
+        )
+
+        print(kwargs_multinomial_temp)
+        print(generated_text, "\n************************")
+
+        generated_responses_formatted = "\n".join(
+            f"Answer {i}: {text.strip()}" for i, text in enumerate(generated_text)
+        )
+        selector_prompt = (
+            f"{formatted_message.replace('User:', 'User: Question: ').replace('Assistant:', '').replace('<end_of_utterance>', '')}\n"
+            f"Different people answered this question in different ways. Combine these responses into a single, coherent and accurate answer:\n"
+            f"{generated_responses_formatted}\n"
+            f"Just return the final answer.<end_of_utterance>\nAssistant:"
+        )
+
+        print(selector_prompt)
+
+        inputs = self.processor(
+            text=selector_prompt,
+            images=image,
+            return_tensors="pt",
+            padding=True,
+        ).to(self.model.device)
+
+        generated_ids = self.model.generate(**inputs, **self.kwargs)
+        generated_text = self.processor.batch_decode(
+            generated_ids[:, inputs["input_ids"].size(1) :],
+            skip_special_tokens=True,
+        )
+        print(generated_text, "\n************************")
+
+        return generated_text[-1].strip()
+
     def answer_level_greedy_mllm_selector_generate(
         self, formatted_message, image, **inputs
     ):
@@ -831,6 +981,22 @@ class TTAugAdapter_SmolVLM2(SmolVLM2):
 
         if (
             self.token_selection_aggregation_method
+            == "answer_level_temperature_confidence_scores"
+        ):
+            return self.answer_level_temperature_confidence_scores_generate(
+                formatted_messages[-1], images_augmented[-1], **inputs
+            )
+
+        if (
+            self.token_selection_aggregation_method
+            == "answer_level_temperature_mllm_synthesizer"
+        ):
+            return self.answer_level_temperature_mllm_synthesizer_generate(
+                formatted_messages[-1], images_augmented[-1], **inputs
+            )
+
+        if (
+            self.token_selection_aggregation_method
             == "answer_level_greedy_mllm_selector"
         ):
             return self.answer_level_greedy_mllm_selector_generate(
@@ -891,26 +1057,33 @@ class TTAugAdapter_SmolVLM2(SmolVLM2):
 
         return generated_text.strip()
 
-    def save_inputs_grid_prompts(self, message, formatted_messages, images_augmented, applied_transforms, dataset=None):
+    def save_inputs_grid_prompts(
+        self,
+        message,
+        formatted_messages,
+        images_augmented,
+        applied_transforms,
+        dataset=None,
+    ):
         save_dir_base = f"benchmark_results/n_samples_1000/exp_83_newdatasets_finalized_VISUALSAMPLES/saved_inputs/{str(dataset)}/"
         os.makedirs(save_dir_base, exist_ok=True)
-        
+
         # Convert PIL images to tensors and create grid
         to_tensor = transforms.ToTensor()
         image_tensors = []
         max_size = 600  # Target size for longest edge
-        
+
         target_width, target_height = None, None
-        
+
         for img_list in images_augmented:
             if img_list:  # Check if list is not empty
                 img = img_list[0]  # Take first image from each augmentation
-                
+
                 # Calculate scaling ratio based on longest edge
                 width, height = img.size
                 longest_edge = max(width, height)
                 scale_ratio = min(1.0, max_size / longest_edge)
-                
+
                 # Calculate new dimensions while preserving aspect ratio
                 new_width = int(width * scale_ratio)
                 new_height = int(height * scale_ratio)
@@ -919,30 +1092,36 @@ class TTAugAdapter_SmolVLM2(SmolVLM2):
                     target_width, target_height = new_width, new_height
 
                 # Resize image with high-quality resampling
-                img_resized = img.resize((target_width, target_height), Image.Resampling.LANCZOS)
-                
+                img_resized = img.resize(
+                    (target_width, target_height), Image.Resampling.LANCZOS
+                )
+
                 # Convert to tensor
                 img_tensor = to_tensor(img_resized)
                 image_tensors.append(img_tensor)
-        
+
         if image_tensors:
             # Stack tensors into batch
             batch_tensor = torch.stack(image_tensors)
             # Create grid
-            img_grid = vutils.make_grid(batch_tensor, nrow=int(len(image_tensors)**0.5), padding=2, normalize=True)
+            img_grid = vutils.make_grid(
+                batch_tensor,
+                nrow=int(len(image_tensors) ** 0.5),
+                padding=2,
+                normalize=True,
+            )
             # Convert back to PIL and save as JPG
             to_pil = transforms.ToPILImage()
             img_grid_pil = to_pil(img_grid)
             img_grid_save_path = os.path.join(save_dir_base, "image_grid.jpg")
             img_grid_pil.save(img_grid_save_path, "JPEG", quality=95)
-        
+
         prompts_save_path = os.path.join(save_dir_base, "prompts.txt")
         with open(prompts_save_path, "w") as f:
             for idx, (fmt_msg, transform) in enumerate(
                 zip(formatted_messages, applied_transforms)
             ):
                 f.write(f"Prompt {idx}:\n{fmt_msg}\n******\n")
-
 
     def generate_inner(self, message, dataset=None):
         # print(message, "\n************************")
@@ -962,10 +1141,18 @@ class TTAugAdapter_SmolVLM2(SmolVLM2):
         )
 
         images_augmented, applied_transforms = self.image_augment(images)
-        
-        save_visual_samples_flag = os.environ.get("SAVE_VISUAL_SAMPLES", "False").lower() in ("1", "true", "yes")
+
+        save_visual_samples_flag = os.environ.get(
+            "SAVE_VISUAL_SAMPLES", "False"
+        ).lower() in ("1", "true", "yes")
         if save_visual_samples_flag:
-            self.save_inputs_grid_prompts(message, formatted_messages, images_augmented, applied_transforms, dataset)
+            self.save_inputs_grid_prompts(
+                message,
+                formatted_messages,
+                images_augmented,
+                applied_transforms,
+                dataset,
+            )
 
         HANDLE_OUT_OF_MEMORY = getattr(self, "handle_oom", True)
         if not HANDLE_OUT_OF_MEMORY:

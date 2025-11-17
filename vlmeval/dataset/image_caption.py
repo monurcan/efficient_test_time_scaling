@@ -30,6 +30,21 @@ class COCO_Caption_Scorer():
                 print('%s: %0.3f' % (method, score * 100))
                 total_scores[method] = score * 100
 
+                if method == "ROUGE_L":
+                    print("*********************************************")
+                    print("*********************************************")
+                    print("*************<STANDARD ERROR>****************")
+                    # print(score, scores, scorer, method)
+                    hit_percentages = [100 * h for h in scores]
+                    print(hit_percentages)
+                    variance = np.var(hit_percentages)
+                    standard_error = np.sqrt(variance / len(hit_percentages))
+                    print(f"Mean: {np.mean(hit_percentages)}")
+                    print(f"Standard Error: {standard_error}")
+                    print("*************</STANDARD ERROR>****************")
+                    print("*********************************************")
+                    print("*********************************************")
+                
         print('*****DONE*****')
         for key, value in total_scores.items():
             print('{}:{}'.format(key, value))

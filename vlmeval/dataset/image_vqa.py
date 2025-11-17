@@ -79,6 +79,19 @@ class ImageVQADataset(ImageBaseDataset):
             hit = hit_calculate(sub, dataset)
             ret['Overall'] = np.mean(hit) * 100
         else:
+            print("*********************************************")
+            print("*********************************************")
+            print("*************<STANDARD ERROR>****************")
+            hit_percentages = [100 * h for h in hit]
+            print(hit_percentages)
+            variance = np.var(hit_percentages)
+            standard_error = np.sqrt(variance / len(hit_percentages))
+            print(f"Mean: {np.mean(hit_percentages)}")
+            print(f"Standard Error: {standard_error}")
+            print("*************</STANDARD ERROR>****************")
+            print("*********************************************")
+            print("*********************************************")
+            
             ret['Overall'] = np.mean(hit) * 100
             if 'category' in data:
                 cates = list(set(data['category']))

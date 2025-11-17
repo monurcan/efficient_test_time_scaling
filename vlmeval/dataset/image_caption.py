@@ -36,7 +36,7 @@ class COCO_Caption_Scorer():
                     print("*************<STANDARD ERROR>****************")
                     # print(score, scores, scorer, method)
                     hit_percentages = [100 * h for h in scores]
-                    print(hit_percentages)
+                    # print(hit_percentages)
                     variance = np.var(hit_percentages)
                     standard_error = np.sqrt(variance / len(hit_percentages))
                     print(f"Mean: {np.mean(hit_percentages)}")

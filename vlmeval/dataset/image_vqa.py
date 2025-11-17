@@ -83,7 +83,7 @@ class ImageVQADataset(ImageBaseDataset):
             print("*********************************************")
             print("*************<STANDARD ERROR>****************")
             hit_percentages = [100 * h for h in hit]
-            print(hit_percentages)
+            # print(hit_percentages)
             variance = np.var(hit_percentages)
             standard_error = np.sqrt(variance / len(hit_percentages))
             print(f"Mean: {np.mean(hit_percentages)}")
